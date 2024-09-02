@@ -46,3 +46,26 @@ footer {
     background-color: #007bff;
     color: white;
 }
+
+/* Header styling */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #007bff;
+}
+
+.profile-pic {
+    margin-left: 20px;
+    flex-shrink: 0;
+}
+
+.profile-pic img {
+    width: 120px;
+    /* Adjust size as needed */
+    height: 120px;
+    border-radius: 50%;
+    /* Circular profile picture */
+    object-fit: cover;
+}
