@@ -10,13 +10,14 @@ header {
     margin: 20px auto;
     max-width: 800px;
     background-color: #007bff;
-    color: white;
+    color: #007bff;
     padding: 20px;
     text-align: center;
+    font-weight: bold;
 }
 
 header a {
-    color: #f4f4f4;
+    color: #007bff;
     text-decoration: none;
 }
 
@@ -49,11 +50,12 @@ footer {
 
 /* Header styling */
 .header-container {
+    background-image: url('Banner.png');
+    background-size: cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #007bff;
+    padding: 30px;
 }
 
 .profile-pic {
